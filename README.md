@@ -1,5 +1,6 @@
 # FoodValue
 
+## About
 Download [here](https://github.com/valkyrienyanko/FoodValue/releases).
 
 FoodValue is a plugin that allows you to modifiy any food items saturatiob value. All config food saturation values are random upon config generation. If you want new random values, just remove the foods in the config and reload your server.
@@ -108,3 +109,9 @@ food:
 ```
 </p>
 </details>
+
+## Compiling
+1. Clone the repository directly into your IDE.
+2. Build Spigot with [Spigot's Build Tools](https://www.spigotmc.org/wiki/buildtools/) then add the JAR to the projects build path.
+3. Fix any outdated code in the project depending on what version of Spigot you installed.
+4. Compile the plugin by exporting it to a JAR file.
